@@ -16,32 +16,26 @@
                     sans: ['Inter', ...defaultTheme.fontFamily.sans],
                 },
                 colors: {
-            primary: {
-            50:  "#E9FBE1",
-            100: "#D4F6C4",
-            200: "#B8EE9D",
-            300: "#9EE37D",
-            400: "#7DD85A",
-            500: "#63C132",
-            600: "#4FA21F",
-            700: "#3D8615",
-            800: "#2F6A0E",
-            900: "#358600", // your darkest green
-            },
-
-            accent: {
-            50:  "#F0FAFF",
-            100: "#CFF0FF", // from palette
-            200: "#AAEFDF", // from palette
-            300: "#8BE3CF",
-            400: "#6FD8C0",
-            500: "#4CCEB1",
-            600: "#2EB5A0",
-            700: "#1E9484",
-            800: "#14736A",
-            900: "#0B524D",
-            },
-        }
+                    primary: {
+        "yale-blue": "#274060",
+        "baltic-blue": "#335c81",
+        "cool-sky": "#65afff",
+        "space-indigo": "#1b2845",
+        "cloudy-sky": "#5899e2",
+      },
+        accent: {
+          50:  "#e6f3ff", // very light
+          100: "#cce6ff",
+          200: "#99ccff",
+          300: "#66b3ff",
+          400: "#3399ff",
+          500: "#65afff", // base accent
+          600: "#4d91e6",
+          700: "#3573b3",
+          800: "#1f5480",
+          900: "#10334d", // very dark
+        },
+      },
             },
         },
 
